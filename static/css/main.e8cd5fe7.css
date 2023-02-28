@@ -11146,8 +11146,7 @@ input[type="number"] {
   width: 1320px;
 }
 .homeTextSide::before {
-  background: url("/static/media/leftText.58f76eb5cfa85a0a53f7.png") 0px 0px
-    no-repeat scroll;
+  background: url("") 0px 0px no-repeat scroll;
   height: 4404px;
   left: -115px;
   top: 350px;
@@ -11160,14 +11159,13 @@ input[type="number"] {
   width: 103px;
 }
 .homeTextSide::after {
-  background: url("/static/media/rightText.d5c487a3d161c9ef3c96.png") 0px 0px
-    no-repeat scroll;
+  background: url("") 0px 0px no-repeat scroll;
   height: 3108px;
   right: -115px;
   top: 200px;
 }
 #logo img {
-  max-width: 100%;
+  max-width: 40%;
 }
 #profile_banner\ subheader {
   background-position: 50% center;
@@ -15369,7 +15367,11 @@ i.font60 {
   text-align: center;
 }
 .homeBannerContent h1 {
-  color: rgb(255, 255, 255);
+  color: linear-gradient(
+    135deg,
+    rgb(255, 10, 10) -16.8%,
+    rgb(22, 22, 22) 138.64%
+  );
   font-family: "Bebas Neue", cursive;
   font-size: 100px;
 }
@@ -22097,7 +22099,7 @@ blockquote.very-big span {
 }
 a,
 img {
-  outline: 0px;
+  outline: 1px;
 }
 .z1 {
   z-index: 1;
