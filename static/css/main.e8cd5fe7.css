@@ -15367,11 +15367,7 @@ i.font60 {
   text-align: center;
 }
 .homeBannerContent h1 {
-  color: linear-gradient(
-    135deg,
-    rgb(255, 10, 10) -16.8%,
-    rgb(22, 22, 22) 138.64%
-  );
+  color: #d279d2;
   font-family: "Bebas Neue", cursive;
   font-size: 100px;
 }
@@ -23829,7 +23825,7 @@ img {
   transition: all 0.02s ease 0s;
 }
 .toggle_custom .slider::before {
-  background: rgb(213, 16, 137);
+  background: #ff0000;
   border-radius: 30px;
   content: "";
   height: 18px;
